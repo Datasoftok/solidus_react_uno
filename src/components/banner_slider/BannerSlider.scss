@@ -1,0 +1,17 @@
+.contentSlider{
+	margin: 0 -15px;
+	.slick-arrow{
+		color:$main-white;		
+	}
+	.slick-next{
+		right: 24px;
+		z-index: 999;
+	}
+	.slick-prev{
+		z-index:999;
+		left:24px;
+	}
+	.slick-dots li button:before{
+		color: $main-primary;
+	}
+}

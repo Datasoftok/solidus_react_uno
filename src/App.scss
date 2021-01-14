@@ -1,0 +1,52 @@
+@import 'Variables.scss';
+
+@import './components/header/Header.scss';
+@import './components/footer/Footer.scss';
+
+@import './components/home/Home.scss';
+@import './components/list/List.scss';
+@import './components/item/Item.scss';
+@import './components/list/filters_list/FiltersList.scss';
+@import './components/vip/Vip.scss';
+@import './components/cart/Cart.scss';
+@import './components/banner_slider/BannerSlider.scss';
+@import './components/carousel/Carousel';
+
+
+body{
+  background-color: $main-white;
+  font-weight: 300;
+  font-family:$main-font;
+  color:$main-black;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-primary{
+  background-color: $main-secondary;
+}
+.btn-primary, .btn-secondary, .btn-success, .btn-danger, .btn-warning, .btn-info, .btn-light, .btn-dark{
+  border: none;
+}
+.btn-success{
+  background-color: $main-fifth;
+}
+.btn-info{
+ background-color: $main-third; 
+}
+.btn-danger{
+  background-color:$main-primary;
+}
+.card{
+  border: none;
+  margin-bottom: 16px;
+}
+p{
+  margin: 0;
+}
+
+.App {
+  
+}

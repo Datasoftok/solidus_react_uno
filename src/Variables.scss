@@ -1,0 +1,90 @@
+
+
+$main-primary: #ff0000;//Rojo
+$main-secondary: #f8e656;//Amarillo:
+
+$main-third: #4AC964; //Verde:
+$main-fourth: #36AEEB; //Azul: 
+$main-fifth: #FFC149; //Amarillo:
+$main-sixth: #FF7B17;//Naranja:
+
+$main-primary-light: lighten($main-primary, 20%);
+$main-secondary-light: lighten($main-secondary, 20%);
+$main-third-light: lighten($main-third, 20%);
+$main-fourth-light: lighten($main-fourth, 20%);
+$main-fifth-light: lighten($main-fifth, 20%);
+$main-sixth-light: lighten($main-sixth, 20%);
+
+$main-primary-alpha: transparentize($main-primary, 0.8);
+$main-secondary-alpha: transparentize($main-secondary, 0.8);
+$main-third-alpha: transparentize($main-third, 0.8);
+$main-fourth-alpha: transparentize($main-fourth, 0.8);
+$main-fifth-alpha: transparentize($main-fifth, 0.8);
+$main-sixth-alpha: transparentize($main-sixth, 0.8);
+
+$main-primary-lighter: lighten($main-primary, 40%);
+$main-secondary-lighter: lighten($main-secondary, 40%);
+$main-third-lighter: lighten($main-third, 40%);
+$main-fourth-lighter: lighten($main-fourth, 40%);
+$main-fifth-lighter: lighten($main-fifth, 40%);
+$main-sixth-lighter: lighten($main-sixth, 40%);
+
+$main-primary-dark: darken($main-primary, 20%);
+$main-secondary-dark: darken($main-secondary, 20%);
+$main-third-dark: darken($main-third, 20%);
+$main-fourth-dark: darken($main-fourth, 20%);
+$main-fifth-dark: darken($main-fifth, 20%);
+$main-sixth-dark: darken($main-sixth, 20%);
+
+$main-gray: #7c797a; //gris gloval
+$main-gray-dark: #3d3c3c;
+$main-gray-light: #cccccc;
+$main-gray-lighter: #fafafa;//casi blanco 
+
+
+$main-transparent: rgba(255,255,255,0.6);
+
+$main-white: #ffffff; // blanco gloval
+$main-black: #000000; //negro gloval
+
+
+
+// F O N T S
+$main-font:'Roboto', sans-serif;
+
+:export {
+	main_primary: $main-primary;
+	main_secondary: $main-secondary;
+	main_third: $main_third;
+	main_fourth: $main_fourth;
+	main_fifth: $main_fifth;
+	main_sixth: $main_sixth;
+
+	main_primary_alpha: $main-primary-alpha;
+	main_secondary_alpha: $main-secondary-alpha;
+	main_third_alpha: $main-third-alpha;
+	main_fourth_alpha: $main-fourth-alpha;
+	main_fifth_alpha: $main-fifth-alpha;
+	main_sixth_alpha: $main-sixth-alpha;
+
+	main_primary_light: $main-primary-light;
+	main_secondary_light: $main-secondary-light;
+	main_third_light: $main-third-light;
+	main_fourth_light: $main-fourth-light;
+	main_fifth_light: $main-fifth-light;
+	main_sixth_light: $main-sixth-light;
+
+	main_primary_lighter: $main-primary-lighter;
+	main_secondary_lighter: $main-secondary-lighter;
+	main_third_lighter: $main-third-lighter;
+	main_fourth_lighter: $main-fourth-lighter;
+	main_fifth_lighter: $main-fifth-lighter;
+	main_sixth_lighter: $main-sixth-lighter;
+
+	main_primary_dark: $main-primary-dark;
+	main_secondary_dark: $main-secondary-dark;
+	main_third_dark: $main-third-dark;
+	main_fourth_dark: $main-fourth-dark;
+	main_fifth_dark: $main-fifth-dark;
+	main_sixth_dark: $main-sixth-dark;
+}

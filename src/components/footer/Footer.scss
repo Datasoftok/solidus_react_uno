@@ -1,0 +1,93 @@
+
+.footer{
+	background-color:$main-white;	
+    z-index: 2;
+    position: relative;
+	.footerContent{
+		text-align: center;
+		.news{
+			background:$main-primary;
+			padding: 32px 16px;
+			.far{
+				font-size: 32px;
+				color: $main-white;
+				margin-right: 4px;
+			}
+			.txtNews{
+				font-size: 24px;
+				font-weight: 500;
+				color: $main-white;
+			}
+			.txtComent{
+				display: block;
+				color: $main-white;
+				font-size: 12px;
+				font-weight: 500;
+			}
+			.inputSend{
+				display: inline-block;
+				min-width: 250px;
+				width: auto;
+				line-height: 14px;
+				font-size: 12px;
+				padding: 0;
+				border-radius: 0px;
+				border: none;
+				margin: 0;
+				.fas{
+					color: $main-primary;
+				}
+			}
+			.btnSend{
+				background: $main-white;
+				border-radius: 0px;
+				line-height: 19px;
+			}
+		}
+		.infoSite{
+			background:$main-secondary;
+			padding: 32px 16px;
+			h4{
+				font-size: 16px;
+				font-weight: 700;
+			    margin-bottom: 42px;
+			}
+			.dir{
+				display: block;
+				font-size: 14px;
+				font-weight: 400;
+			}
+			.hs{
+				display: block;
+				font-size: 12px;
+				color: $main-gray;
+			}
+			ul{
+				list-style: none;
+				text-align: left;
+				margin-left: 32px;
+				li{
+					font-size: 14px;
+					a{
+						color:$main-black;
+					}
+				}
+			}
+			.social{
+			    margin-bottom: 42px;
+				.fab{
+					font-size: 40px;
+					margin: 4px;
+					color: $main-gray;
+				}
+			}
+			.data{
+				.datafiscal{
+					.imgDF{
+						max-width: 50px;
+					}
+				}
+			}
+		}
+	}
+}

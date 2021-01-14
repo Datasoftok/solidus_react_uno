@@ -1,0 +1,163 @@
+
+.top-content{
+	.top-header{
+		max-height: 70px;
+		display: block;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		box-shadow: inset 0 1px 0 #e0e0e0, 0 2px 25px rgba(22,22,22,.25);
+		
+
+    .bannerTop{
+      background-color: #faee89;
+      font-size: 12px;
+      font-weight: 400;
+      padding: 4px 0px;
+      .infoBlock{
+        padding: 0 12px;
+        display: inline-block;
+        a{
+          color:$main-black;
+          .fa-whatsapp{
+            font-size: 18px;
+            padding: 0px 4px;
+            color: #049e00;
+          }
+          .fa-phone-alt{
+            font-size: 14px;
+            padding: 0px 4px;
+            color: $main-primary;
+          }
+        }
+        &.pagContact{
+          text-align: right;
+          a{
+            padding: 016px;
+          }
+        }
+      }
+    }
+
+    .headerBlock{
+      background-color: #f8e656;
+      padding: 16px 0 8px 0;
+
+      .searchBox{
+        line-height: 24px;
+        background-color: $main-white;
+        border-radius: 25px;
+        border: 1px solid $main-black;
+        .searchText{
+          line-height: 24px;
+          border-radius: 15px;
+          box-shadow: none;
+          border: none;
+          font-size: 12px;
+          padding: 4px 8px;
+          min-width: 96%;
+          outline: transparent;
+        }
+        .btnSearch{
+          border-radius: 20px;
+          padding: 4px 7px;
+          font-size: 12px;
+        }
+        .btnSearch:focus, .btnSearch:hover, .btnSearch:active{
+          background-color: $main-primary;
+        }
+      }
+    }
+	}
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;   
+}
+.dropdown-item{
+	padding: 6px 12px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+@keyframes bugfix { from {padding:0;} to {padding:0;}}
+@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;}}
+
+#overlay-button {
+  position: absolute;
+  right: 2em;
+  top: 6px;
+  padding: 26px 11px;
+  z-index: 5;
+  cursor: pointer;
+  user-select: none;
+  span {
+      height: 4px;
+      width: 35px;
+      border-radius: 2px;
+      background-color: $main-gray;
+      position: relative;
+      display: block;
+      transition: all .2s ease-in-out;
+      &:before {
+        top: -10px;
+        visibility: visible;
+      }
+      &:after {
+        top: 10px;
+      }
+      &:before, &:after {
+          height: 4px;
+          width: 35px;
+          border-radius: 2px;
+          background-color: $main-gray;
+          position: absolute;
+          content: "";
+          transition: all .2s ease-in-out;
+      }
+    }
+    &:hover span, &:hover span:before, &:hover span:after {
+      background: $main-gray;
+    }
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox]:checked ~ #overlay {
+  visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #overlay-button {
+  &:hover span, span{
+    background: transparent;
+  }
+  span {
+    &:before {
+      transform: rotate(45deg) translate(7px, 7px);
+      opacity: 1;
+    }
+    &:after {
+      transform: rotate(-45deg) translate(7px, -7px);
+    }
+  }
+}
+
+@media (max-width: 574px) {
+	.top-content{
+		.top-header{
+			a{
+				display: block;
+				text-align: center;
+			}
+			.user-top{
+				line-height: 70px;
+			}
+		}
+	}
+}

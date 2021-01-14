@@ -1,0 +1,135 @@
+.contentCart{
+	margin-top: 122px;
+	.cartItem{
+		margin: 0 16px;
+	    padding: 16px 0;
+	    border-bottom: 1px solid $main-gray-light;
+		.imgthumb{
+			max-width: 90px;
+		}
+		.title{
+			font-size: 12px;
+			font-weight: 500;
+			line-height: 16px;
+			margin-top: 24px;
+		}
+		.infoQuantity{
+			.btnMinus{
+				border-radius: 50%;
+				background: transparent;
+				color: $main-gray;
+				font-size: 24px;
+			}
+			.quantity{
+				max-width: 32px;
+				font-size: 12px;
+				font-weight: 500;
+				border: 1px solid $main-black;
+				padding: 4px;
+				display: inline-block;
+				border-radius: 4px;
+			}
+			.btnPlus{
+				border-radius: 50%;
+				background: transparent;
+				color: gray;
+				font-size: 24px;
+			}
+		}
+		.price{
+			font-size: 18px;
+			font-weight: 900;
+			line-height: 60px;
+			color: $main-gray;
+		}
+		.btnDelete{
+			color: $main-gray;
+			border: 1px solid $main-black;
+			margin: 12px;
+		}
+	}
+	.cartTotals{
+		.btnBuy{
+			width: 100%;
+			background: red;
+			color: white;
+			font-size: 16px;
+			font-weight: 500;
+			border-radius: 20px;
+			margin: 16px 0;
+		}
+		.totals{
+			border-bottom: 1px solid $main-gray-light;
+			border-top: 1px solid $main-gray-light;
+			padding: 16px;
+			.blockSub{
+				.txtPrice{
+					font-size: 14px;
+					font-weight: 500;
+					color: $main-gray;
+					display: block;
+					text-align: left;
+				}
+				.price{
+					font-size: 14px;
+					font-weight: 500;
+					display: block;
+					text-align: right;
+					color: $main-primary;
+				}
+			}
+			.blockShipping{
+				background: $main-secondary;
+				padding: 16px;
+				margin: 24px 0;
+				.txtShipping{
+					color: $main-white;
+					font-size: 14px;
+					font-weight: 400;
+					display: block;
+					text-align: left;
+				}
+				.shipping{
+					display: block;
+					text-align: right;
+					font-size: 14px;
+					font-weight: 900;
+					color: $main-white;
+				}
+			}
+			.blockDes{
+				text-align: right;
+				.txtDes{
+					font-size: 14px;
+					font-weight: 400;
+					display: block;
+					text-align: left;
+					line-height: 32px;
+					color: $main-gray;
+				}
+				.btn-des{
+					line-height: 24px;
+					font-size: 14px;
+					font-weight: 400;
+					color: $main-gray;
+				}
+			}
+			.blockTotal{
+				margin-top: 24px;
+				border-top: 1px solid $main-primary;
+				padding: 16px;
+				background: $main-gray-lighter;
+				.txtTotal{
+					font-size: 16px;
+					font-weight: 900;
+				}
+				.totalPrice{
+					font-size: 16px;
+					font-weight: 900;
+					text-align: right;
+					display: block;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,141 @@
+.contentVip{
+	margin-top: 90px;
+	.vipSlider{
+		margin: 60px 20px 10px;
+		.imgSlider{
+			//max-width: 500px;
+		}
+		.imgSliderSmall{
+			//max-width: 90px;
+		}
+		.slick-next:before, .slick-prev:before{
+			color: $main-gray-light;
+		}
+	}
+	.infoBox{
+		margin: 60px 20px 10px;
+		border-top: 1px solid $main-gray-light;
+		padding-top: 16px;
+		border-bottom: 1px solid $main-gray-light;
+		padding-bottom: 16px;
+		.title{
+			font-size: 32px;
+			font-weight: 900;
+		}
+		.sku{
+			display: block;
+			color: $main-gray;
+			font-size: 14px;
+			font-weight: 500;
+		}
+		.price{
+			display: block;
+			font-size: 30px;
+			font-weight: 900;
+			margin: 20px 0;
+		}
+		.quota{
+			font-size: 24px;
+			font-weight: 700;
+			color: $main-primary;
+			font-style: italic;
+		}
+	}
+	.buyBox{
+		.btnBuy{
+			font-size: 14px;
+			border-radius: 25px;
+			padding: 8px 24px;
+			letter-spacing: 1px;
+			background: $main-primary;
+			color: $main-white;
+			font-weight: 700;
+			min-width: 328px;
+		}
+		.infoBuy{
+			.payment{
+				margin: 32px 0;
+				.titlePayment{
+					font-size: 14px;
+				    font-weight: 900;
+				    margin: 4px;
+				}
+				.imgPayment{
+					max-width: 50px;
+				}
+				.comentPayment{
+					font-size: 12px;
+					font-weight: 400;
+				}
+				.morePayment{
+					display: inline-block;
+					font-size: 12px;
+					padding: 4px;
+					font-weight: 400;
+					text-decoration: underline;
+				}
+			}
+			.shipping{
+				margin: 32px 0;
+				.imgShipping{
+					max-width: 50px;
+				}
+				.titleShipping{
+					font-size: 14px;
+				    font-weight: 900;
+				    display: inline-block;
+					margin: 4px;				
+				}
+				.comentShipping{
+					font-size: 12px;
+					font-weight: 400;
+					display: block;
+				}
+				.moreShipping{
+					display: inline-block;
+					font-size: 12px;
+					padding: 4px 0;
+					font-weight: 400;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	.titleDesc{
+		border-bottom: 2px solid red;
+		margin: 16px;
+		h4{
+
+		}
+	}
+	.desc{
+		margin: 24px;
+		h6{
+			font-size: 16px;
+			font-weight: 500;
+		}
+		p{
+			font-size: 12px;
+			font-weight: 400;
+			margin: 12px;
+		}
+	}
+	.specs{
+		border: 1px solid $main-gray-light;
+		margin: 24px;
+		.col{
+			padding: 8px;
+			border-bottom: 1px solid $main-gray-light;
+			background:$main-gray-lighter;
+			.name{
+				font-size: 14px;
+				font-weight: 500;
+			}
+			.value{
+				font-size: 12px;
+				font-weight: 400;
+				display: block;
+			}
+		}
+	}
+}

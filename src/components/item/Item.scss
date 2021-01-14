@@ -1,0 +1,80 @@
+
+.contentProduct{
+		text-align: center;
+		margin: 8px 0;
+		.btn-fav{
+			position: absolute;
+			right: 32px;
+			&:hover{
+				color:$main-primary;
+			}
+		}
+		.imgProduct{
+			max-width: 300px;
+		}
+		a{
+			color: $main-gray;
+		}
+		.titleProduct{
+			color: $main-gray;
+			height: 62px;
+			margin: 0;
+			text-align: center;
+			font-weight: normal;
+			letter-spacing: -.02em;
+			font-size: 1em;
+			line-height: 1.3em;
+			text-transform: uppercase;
+		}
+		.price{
+			font-size: 19px;
+			font-weight: 900;
+			.sign{
+				font-weight: 300;
+			}
+		}
+		.descProduct{
+			.oldPrice{
+				display: inline-block;
+				font-size: 16px;
+				font-weight: 300;
+				padding: 0 8px;
+				color: gray;
+				text-decoration: line-through;
+			}
+			.Discount{
+				display: inline-block;
+				color: red;
+				background-color: yellow;
+				font-size: 16px;
+				border-radius: 16px;
+				padding: 0px 11px;
+				.number{
+					font-weight: 900;
+				}
+				.sign{
+					font-weight: 600;
+				}
+				.off{
+					font-weight:300;
+				}
+			}
+		}
+		.quota{
+			font-size: 18px;
+			font-weight: 600;
+			font-style: italic;
+			color: red;
+			.num{
+				display: block;
+			}
+		}
+		.btnBuy{
+			font-size: 14px;
+			border-radius: 25px;
+			padding: 8px 24px;
+			letter-spacing: 1px;
+			background: $main-primary;
+			color: $main-white;
+		}
+	}

@@ -1,0 +1,28 @@
+.contentCarousel{
+	.customCarousel{
+		.contentProduct{
+			min-width: 300px;
+			.imgProduct{
+				max-width: none;
+			}
+			.btn-fav{
+				right: auto;
+				margin-left: 80px;
+			}
+		}
+		.slick-arrow{
+			color:$main-primary;		
+		}
+		.slick-next{
+			right: 24px;
+			z-index: 999;
+		}
+		.slick-prev{
+			z-index:999;
+			left:24px;
+		}
+		.slick-next:before, .slick-prev:before{
+			color:$main-primary;
+		}
+	}
+}
