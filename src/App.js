@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { createBrowserHistory } from "history";
 
-import moment from 'moment';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-inner-image-zoom/lib/InnerImageZoom/styles.min.css';

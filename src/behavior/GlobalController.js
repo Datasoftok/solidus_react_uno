@@ -1,5 +1,5 @@
 import EventDispatcher from 'behavior/EventDispatcher';
-import moment from 'moment';
+
 import runtimeEnv from '@mars/heroku-js-runtime-env';
 
 class GlobalController {
