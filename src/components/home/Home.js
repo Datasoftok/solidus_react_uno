@@ -13,6 +13,9 @@ export default class Home extends React.Component {
 					<div className=" col">
 						<BannerSlider/>
 					</div>
+					<div className="col title">
+						<h2>Destacados</h2>
+					</div>
 					<div className=" col">
 						<Carousel/>
 					</div>
